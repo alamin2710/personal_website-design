@@ -12,6 +12,7 @@ body {
     display: flex;
     width: 100%;
     min-height: 100vh;
+    margin-bottom: 100px;
 }
 
 /* Top/First Section Banner style End */
@@ -22,7 +23,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-bottom: 100px;
     width: 50%
 }
 
@@ -36,8 +36,130 @@ body {
     text-decoration: none;
     color: white;
     background-color: tomato;
-    margin: 5px;
-    padding: 10px;
+    margin: 10px;
+    padding: 15px 30px;
     border-radius: 5px;
 
+}
+
+.second-section-text {
+    text-align: center;
+}
+
+.second-section-cashbox {
+    display: flex;
+
+}
+
+.second-section-cashbox {
+
+    padding-left: 20%;
+    padding-right: 24%;
+}
+
+.cash-box {
+    color: grey;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
+
+.cash-box h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#select-box {
+    background-color: tomato;
+    color: white;
+    border: 5px solid red;
+}
+
+.amountbox {
+    padding-left: 25%;
+    padding-right: 15%;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 90%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px soli tomato;
+}
+
+.donate_now-btn {
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    left: 44%;
+    right: 40%;
+}
+
+.donate_now-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.third-section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.third-section-text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.flex {
+    display: flex;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.third-section-box {
+    width: 30%;
+    padding: 5%;
+    margin: 5px;
+}
+
+#box-color3 {
+    background-color: blanchedalmond;
+
+}
+
+#box-color1 {
+    background-color: darkgray;
+}
+
+#box-color2 {
+    background-color: khaki;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+footer h1 {
+    color: tomato;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
 }

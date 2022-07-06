@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-/* Top/First Section Banner style start here*/
+/*------------- Top/First Section  style start here -------------*/
 .top-section-banner {
     background-image: url("images/donation9\ copy2.jpg");
     position: relative;
@@ -15,7 +15,6 @@ body {
     margin-bottom: 100px;
 }
 
-/* Top/First Section Banner style End */
 .first-section {
     color: white;
     position: absolute;
@@ -37,10 +36,6 @@ body {
     padding-bottom: 30px;
 }
 
-/*span {
-    color: tomato;
-}*/
-
 .first-section a {
     text-decoration: none;
     color: white;
@@ -49,16 +44,14 @@ body {
     padding: 15px 30px;
     border-radius: 5px;
     font-size: large;
-
 }
 
-.second-section-text {
-    margin-bottom: 50px;
-}
+/*------------- Top/First section all style end here -------------*/
+
+/*------------- Second Section style start here ------------------*/
 
 .second-section-cashbox {
     display: flex;
-
 }
 
 .text-style h1 {
@@ -72,7 +65,6 @@ body {
     color: gray;
     font-size: 17px;
     font-weight: 500;
-    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -102,9 +94,13 @@ body {
     border: 2px solid tomato;
 }
 
-.amountbox {
+.p_texts {
+    text-align: center;
+}
+
+.extra_amount-box {
     margin-top: 100px;
-    padding-left: 25%;
+    padding-left: 22%;
     padding-right: 15%;
     margin-bottom: 20px;
 }
@@ -114,7 +110,7 @@ input[type=text] {
     border-left: none;
     border-top: none;
     border-right: none;
-    border-bottom: 2px soli tomato;
+    border-bottom: 2px solid tomato;
     text-align: center;
     font-size: large;
     color: gray;
@@ -122,11 +118,11 @@ input[type=text] {
 }
 
 .donate_now-btn {
-    margin: 5px;
     position: absolute;
-    display: flex;
     left: 44%;
     right: 40%;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .donate_now-btn a {
@@ -138,20 +134,20 @@ input[type=text] {
     border-radius: 5px;
 }
 
-.third-section {
+/*------------------seceond section all style end here--------------------------*/
+
+/*------------------Third section style start here---------------------*/
+.third-section-text {
     margin-top: 200px;
     margin-bottom: 100px;
-}
-
-.third-section-text {
     text-align: center;
-    margin-bottom: 100px;
 }
 
-.flex {
+.flexible {
     display: flex;
     padding-left: 12.5%;
     padding-right: 12.5%;
+    margin-top: 100px;
 }
 
 .third-section-box {
@@ -159,6 +155,11 @@ input[type=text] {
     padding: 5%;
     margin: 5px;
     border-radius: 5px;
+    text-align: left;
+}
+
+.p_align {
+    text-align: center;
 }
 
 #box-color3 {
@@ -173,6 +174,8 @@ input[type=text] {
 #box-color1 {
     background-color: rgb(201, 228, 239);
 }
+
+/*------------------Footer style start here------------------*/
 
 footer {
     height: 130px;
@@ -195,9 +198,11 @@ footer p {
     text-align: center;
 }
 
+/*--------------Footer style End here------------*/
+
 /* fourth_section all style start here*/
 .fourth_section-banner {
-    background-image: url(images/donation2_copy.jpg);
+    background-image: url(images/money1.jpg);
     background-repeat: none;
     background-size: cover;
     width: 100%;
@@ -222,7 +227,7 @@ footer p {
 }
 
 #banner-text p {
-    color: gainsboro;
+    color: lightgray;
 }
 
 /* FIFTY SECTION START*/
